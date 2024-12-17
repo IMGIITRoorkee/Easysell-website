@@ -530,6 +530,7 @@ nav {
 
 .contact {
     align-self: center;
+    color: #F6FFFA;
 }
 
 .row1 ul {
@@ -876,4 +877,8 @@ nav {
     #lor {
         font-size: 16px;
     }
+}
+
+.newClass{
+    color: #F6FFFA;
 }

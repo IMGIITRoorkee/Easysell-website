@@ -500,6 +500,39 @@ nav {
     margin-bottom: 346px;
 }
 
+.ans{
+    max-height: 0px;
+    width: 57%;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+    flex-grow: 1;
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: #155937;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 0.77em;
+    border-radius: 10px;
+    padding-right: 40px;
+    padding-left: 32px;
+    margin-right: 210px;
+}
+
+
+
+.faqBox.active .ans{
+    max-height: 300px;
+}
+.faqBox img{
+    transition: all 0.3s ease-in-out;
+}
+.faqBox.active img{
+    transform: rotate(180deg);
+}
+
 #ques1 div,
 #ques2 div,
 #ques3 div,

@@ -3,6 +3,7 @@ body {
     margin: 0px;
     margin-top: 3px;
     width: 100%;
+    overflow-x: hidden;
 }
 
 #rectangle1 {

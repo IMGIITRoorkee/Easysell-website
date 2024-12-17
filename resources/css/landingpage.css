@@ -161,11 +161,11 @@ nav {
 
 #box1 {
     /* Now sell your product hassle free in a day with Unhasell */
-    width: 790px;
+    width: 700px;
     font-family: 'Helvetica Neue Medium Extended';
     font-style: normal;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 40px;
     display: flex;
     align-items: center;
     text-align: center;
@@ -178,11 +178,11 @@ nav {
 
 #box2 {
     /* Sell your product at your door step and our team will pick up within 24hrs at best price */
-    width: 790px;
+    width: 540px;
     font-family: 'Source Sans Pro';
     font-style: normal;
     font-weight: 600;
-    font-size: 36px;
+    font-size: 20px;
     display: flex;
     align-items: center;
     text-align: center;

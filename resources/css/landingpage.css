@@ -503,10 +503,16 @@ nav {
 .row1 {
     margin-top: 20px;
     width: 30%;
-    display: grid;
-    grid-template-columns: 1fr 8fr;
-    grid-template-rows: 1fr 1fr 1fr;
     margin-left: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.row1 .footerTxtWrapper {
+    display: inline-flex;
+    align-items: center;
 }
 
 .abc {

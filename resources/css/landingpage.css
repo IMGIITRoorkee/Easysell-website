@@ -359,8 +359,11 @@ nav {
 
 .chillguy {
     align-self: flex-end;
-    color: #4D5B50;
+    color: #01AF57;
     font-size: 20px;
+    font-weight: 700;
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 25.14px
 }
 
 .produ {

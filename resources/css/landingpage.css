@@ -518,6 +518,12 @@ nav {
     padding: 10px;
 }
 
+.abc:hover{
+    background: #608b6a;
+    scale: 1.2;
+    transition-duration: 0.3s;
+}
+
 .def {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -573,6 +579,12 @@ nav {
     padding: 5px;
     border-radius: 50px;
     background: #344137;
+}
+
+.ijk:hover{
+    background: #608b6a;
+    scale: 1.2;
+    transition-duration: 0.3s;
 }
 
 .row3 {

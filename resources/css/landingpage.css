@@ -1,68 +1,67 @@
 html,
 body {
-    margin: 0px;
-    margin-top: 3px;
+    /* there is no use of margin two time */
+    margin: 3px 0px;
+    /* margin-top: 3px; */
     width: 100%;
 }
 
 #rectangle1 {
-    position: absolute;
     width: 17.552083333333332%;
     height: 432.9722222222222px;
     left: 0%;
     top: 27px;
-    z-index: -2;
-    background: rgba(138, 222, 155, 0.2);
 }
 
 #rectangle2 {
-    position: absolute;
+   
     width: 11.197916666666668%;
     height: 277.77777777777777px;
     left: 62.291666666666664%;
     top: 157px;
-    z-index: -2;
-    background: rgba(138, 222, 155, 0.2);
+    
 }
 
 #rectangle3 {
-    z-index: -2;
-    position: absolute;
+   
     width: 15.102083333333332%;
     height: 435.00000000000006px;
     left: 84.94791666666667%;
     top: 33px;
-    background: rgba(138, 222, 155, 0.2);
+    
 }
 
 #rectangle4 {
-    position: absolute;
+    
     width: 15.312500000000002%;
     height: 378.00000000000006px;
     left: 3.125%;
     top: 613px;
-    z-index: -2;
-    background: rgba(138, 222, 155, 0.2);
+  
 }
 
 #rectangle5 {
-    position: absolute;
+    
     width: 11.197916666666668%;
     height: 277.77777777777777px;
     left: 34.166666666666664%;
     top: 613px;
-    z-index: -2;
-    background: rgba(138, 222, 155, 0.2);
+    
 }
 
 #rectangle6 {
-    position: absolute;
+    
     width: 11.979166666666668%;
     height: 297.00000000000006px;
     left: 72.96875%;
     top: 572px;
-    z-index: -2;
-    background: rgba(138, 222, 155, 0.2);
+    
+}
+
+#rectangle1,#rectangle2,#rectangle3,#rectangle4,#rectangle5,#rectangle6 {
+    z-index: -2; 
+    position: absolute;
+    background: rgba(138, 222, 155, 0.2); 
 }
 
 .fa-bars {
@@ -76,6 +75,8 @@ body {
     border-radius: 12px;
 
 }
+
+
 
 .container10 {
     padding-top: 178px;
@@ -101,7 +102,7 @@ body {
 nav {
     z-index: 100;
     display: flex;
-    padding: 0% 0%;
+    /* padding: 0% 0%; */
     justify-content: space-between;
     align-items: center;
 }
@@ -162,35 +163,27 @@ nav {
 #box1 {
     /* Now sell your product hassle free in a day with Unhasell */
     width: 790px;
-    font-family: 'Helvetica Neue Medium Extended';
-    font-style: normal;
+    /* font-style: normal; */
     font-weight: 500;
     font-size: 20px;
-    display: flex;
+    /* display: flex;
     align-items: center;
     text-align: center;
     justify-content: center;
-    color: #395157;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
+    color: #395157; */
+   
 }
 
 #box2 {
     /* Sell your product at your door step and our team will pick up within 24hrs at best price */
     width: 790px;
-    font-family: 'Source Sans Pro';
-    font-style: normal;
-    font-weight: 600;
+    /* font-weight: 600; */
     font-size: 36px;
-    display: flex;
+    /* display: flex;
     align-items: center;
     text-align: center;
-    justify-content: center;
+    justify-content: center; */
     color: #4D5B50;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
 }
 
 .container2 {
@@ -259,32 +252,32 @@ nav {
 
 #box7 {
     padding-top: 97px;
-    position: relative;
+    /* position: relative; */
     font-family: 'Helvetica Neue Medium Extended';
-    font-style: normal;
+    /* font-style: normal; */
     font-weight: 500;
     font-size: 52px;
     line-height: 62px;
-    display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    /* display: flex;
+    justify-content: center; 
+    /* align-items: center;
+    text-align: center; */
     color: #395157;
 }
 
 #box8 {
-    position: relative;
+    /* position: relative; */
     height: auto;
     font-family: 'Source Sans Pro';
-    font-style: normal;
+    /* font-style: normal; */
     font-weight: 400;
     font-size: 32px;
     line-height: 40px;
-    display: flex;
+    /* display: flex;
     align-items: center;
     text-align: center;
-    justify-content: center;
+    justify-content: center; */
     color: #677476;
 }
 
@@ -439,10 +432,8 @@ nav {
     color: #000000;
 }
 
-#ques1,
-#ques2,
-#ques3,
-#ques4 {
+#ques1
+ {
     flex-grow: 1;
     font-size: 32px;
     display: flex;
@@ -450,13 +441,10 @@ nav {
     justify-content: space-between;
     align-items: center;
     background: #01AF57;
-    padding: 30px;
     overflow-wrap: break-word;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin: 0.5em;
     border-radius: 10px;
-    padding-right: 40px;
-    padding-left: 32px;
+    padding: 0px 0px 32px 40px;
     margin-right: 210px;
 }
 
@@ -471,10 +459,8 @@ nav {
     margin-bottom: 346px;
 }
 
-#ques1 div,
-#ques2 div,
-#ques3 div,
-#ques4 div {
+#ques1 div
+ {
     background: #10C067;
     border-radius: 20px;
     margin-left: 10px;
@@ -649,11 +635,9 @@ nav {
     }
 
     .main-nav {
-        display: none;
         flex-direction: column;
         text-align: center;
-        padding-top: 2px;
-        padding-bottom: 2px;
+       padding: 2px 2px 0px 0px ;
         background: #01AF57;
         z-index: 10;
     }
@@ -707,8 +691,7 @@ nav {
     }
 
     .container1 {
-        margin-top: 220px;
-        margin-bottom: 300px;
+       margin: 220px 300px 0px 0px;
     }
 
     #box1 {
@@ -733,11 +716,11 @@ nav {
         width: 91%;
         margin-bottom: 36px;
     }
-
-    .container2 {
+    .container2, .container3, .container11, .container6 {
         width: 91%;
         margin: auto;
     }
+    
 
     .container311 {
         flex-direction: column;
@@ -745,8 +728,6 @@ nav {
 
     .container3 {
         background: #fff;
-        width: 91%;
-        margin: auto;
     }
 
     .container3 p {
@@ -755,20 +736,17 @@ nav {
         font-size: 40px;
     }
 
-    .container11 {
-        width: 91%;
+    #box1, #box2, #box7, #box8 {
         margin: auto;
     }
-
+    
     #box7 {
         padding-top: 10px;
-        margin: auto;
         font-size: 24px;
     }
 
     #box8 {
         font-size: 22px;
-        margin: auto;
     }
 
     #q2,
@@ -776,10 +754,6 @@ nav {
         display: none;
     }
 
-    #qq1,
-    #qq3 {
-        right: -40px;
-    }
 
     #rev1,
     #rev3 {
@@ -812,18 +786,15 @@ nav {
         margin-top: 0px;
         width: 91%;
         font-size: 30px;
-        margin: auto;
-        left: 0px;
         justify-content: center;
     }
 
     #faq2 {
         max-width: 91%;
         font-size: 20px;
-        margin: auto;
         justify-content: center;
         text-align: center;
-        left: 0px;
+     
     }
 
     .container6 {
@@ -865,15 +836,14 @@ nav {
     }
 
     .row3 {
-        padding-top: 40px;
-        margin: auto;
-        width: 90%;
+        /* padding-top: 40px;
+        margin: auto; */
+        /* width: 90%;
         display: flex;
         flex-direction: column;
         align-items: center;
-    }
+    } */
 
     #lor {
         font-size: 16px;
     }
-}

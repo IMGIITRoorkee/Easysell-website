@@ -288,82 +288,60 @@ nav {
     color: #677476;
 }
 
+
+
+.container12-wrapper {
+    overflow-x: hidden; /* Hide overflowing content horizontally */
+    width: 100%; /* Full width container */
+}
+
 .container12 {
-    padding-top: 100px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: repeat(8, 1fr); /* 8 columns, one for each testimonial */
+    grid-template-rows: repeat(2, auto); /* 2 rows for the testimonials */
+    gap: 20px; /* Optional: Add spacing between items */
+    width: 200%; /* Ensures space for 2 full rows (can be customized for your slider) */
+    transition: transform 0.3s ease-in-out; /* Smooth sliding effect */
 }
 
-#rev1,
-#rev2,
-#rev3,
-#rev4 {
-    position: relative;
-    margin: 30px;
-    padding: 30px;
-}
-
-#q1,
-#q2,
-#q3,
-#q4 {
+#q1, #q2, #q3, #q4, #q5, #q6, #q7, #q8 {
     display: flex;
-}
-
-#qq1,
-#qq2,
-#qq3,
-#qq4 {
-    color: #01AF57;
-    z-index: 2;
-}
-
-#qq1,
-#qq3 {
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
     position: relative;
-    right: -240px;
-    top: 10px;
 }
 
-#qq2,
-#qq4 {
-    position: relative;
-    top: 10px;
-    right: -70px;
-}
-
-#rev1,
-#rev2,
-#rev3,
-#rev4 {
-    display: grid;
-    grid-template-columns: 130fr 358fr;
-    grid-template-rows: 6fr 1fr 1fr;
+#rev1, #rev2, #rev3, #rev4, #rev5, #rev6, #rev7, #rev8 {
     background: rgba(31, 36, 32, 0.9);
     border-radius: 12px;
     font-size: 18px;
     color: #F6FFFA;
-    flex-grow: 1;
+    padding: 20px;
 }
 
-#rev1,
-#rev3 {
-    margin-left: 200px;
+#qq1, #qq2, #qq3, #qq4, #qq5, #qq6, #qq7, #qq8 {
+    color: #01AF57;
+    font-size: 24px;
+    position: absolute;
+    top:88px;
 }
 
-#rev2,
-#rev4 {
-    margin-right: 200px;
+.pfp {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
 }
 
 .chillguy {
-    align-self: flex-end;
+    font-size: 16px;
+    font-weight: bold;
     color: #4D5B50;
-    font-size: 20px;
 }
 
 .produ {
+    font-size: 14px;
     color: #4D5B50;
 }
 
@@ -376,23 +354,23 @@ nav {
 }
 
 #rectangle9 {
-    display: flex;
-    flex-direction: row;
     position: relative;
-    width: 6.666666666666667%;
+    width: 20%; 
     height: 12px;
-    margin-top: 64px;
     background: #D2F3DE;
     border-radius: 30px;
-    margin-left: 49%;
-    min-width: 90px;
+    margin-top: 20px;
+    margin-left: 450px;
 }
 
 #rectangle10 {
-    position: relative;
-    width: 35%;
+    position: absolute;
+    height: 100%;
     background: #01AF57;
     border-radius: 30px;
+    width: 30%; 
+    left: 0; 
+    transition: left 0.1s linear; 
 }
 
 .container5 {

@@ -108,14 +108,16 @@ nav {
 
 #logo1 {
     position: absolute;
-    padding-left: 20px;
-    height: 40px;
-    top: 10px;
+    left: 60px;
+    height: 45px;
+    width: 45px;
+    top: 9px;
 }
 
 .main-nav {
     flex: 1;
-    text-align: left;
+    text-align: right;
+    justify-content: right;
 }
 
 .main-nav ul {

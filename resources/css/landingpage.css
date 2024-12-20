@@ -706,7 +706,19 @@ nav {
         width: 90%;
         display: flex;
         justify-content: flex-end;
-    }
+        transition: transform 0.3s ease, color 0.3s ease; 
+        cursor: pointer; 
+      }
+      
+      #bars.rotate {
+        transform: rotate(180deg); 
+        color: red; 
+      }
+      
+      .main-nav {
+        display: none; 
+      }
+      
 
     #rectangle1 {
         width: 28.974358974358978%;

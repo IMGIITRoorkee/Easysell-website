@@ -1,3 +1,6 @@
+:root {
+    --navbar-bg: rgba(1, 175, 88, 0.40);
+}
 html,
 body {
     margin: 0px;
@@ -93,7 +96,7 @@ body {
     left: 0px;
     top: 0px;
     z-index: -1;
-    background: rgba(62, 95, 79, 0.4);
+    background: var(--navbar-bg);
     backdrop-filter: blur(32px);
 }
 
@@ -104,6 +107,7 @@ nav {
     padding: 0% 0%;
     justify-content: space-between;
     align-items: center;
+    margin-top: -8px;
 }
 
 #logo1 {
@@ -156,7 +160,7 @@ nav {
 #li3 {
     list-style: none;
     display: inline-block;
-    padding: 0px 10px;
+    padding: 8px 20px;
     position: relative;
     background: #01AF57;
 }

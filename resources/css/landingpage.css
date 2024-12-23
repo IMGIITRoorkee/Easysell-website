@@ -131,6 +131,16 @@ nav {
     position: relative;
 }
 
+.progressBar{
+    position: fixed;
+        top: 0;
+        left: 0;
+        height: 5px;
+        background-color: #01AF57;
+        width: 0;
+        z-index: 2000;
+}
+
 #scrollTOP{
    
     position: fixed;

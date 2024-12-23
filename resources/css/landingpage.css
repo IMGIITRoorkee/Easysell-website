@@ -915,3 +915,48 @@ nav {
         font-size: 16px;
     }
 }
+
+@media (max-width: 768px) {
+    footer .container7 {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .row1, .row2, .row3 {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .row1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .row2 .hasell {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .row2 #sell {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    .social {
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .row3 {
+        font-size: 14px;
+        line-height: 1.5;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    #lor {
+        font-size: 12px;
+        text-align: center;
+    }
+}

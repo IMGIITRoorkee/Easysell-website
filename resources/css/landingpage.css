@@ -227,11 +227,7 @@ nav {
     margin-left: 60px;
 }
 
-#box3,
-#box4,
-#box5,
-#box6,
-#box10 {
+.box3{
     flex-grow: 1;
     font-size: 26px;
     display: flex;
@@ -245,11 +241,28 @@ nav {
     padding: 20px 13px 20px 28px;
 }
 
-#box4 {
+.box4 {
+    max-height: 0px;
     color: #F6FFFA;
     background: rgba(31, 36, 32, 0.9);
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+    flex-grow: 1;
+    font-size: 26px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow-wrap: break-word;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    margin: 10px;
+    border-radius: 8px;
+    padding: 0px 13px 0px 28px;
 }
 
+.safety.active .box4{
+    max-height: 300px;
+    padding: 15px 13px 15px 28px;
+}
 
 .container3 {
     position: relative;
@@ -672,10 +685,7 @@ nav {
 @media (max-width:1250px) {
 
     #box3,
-    #box4,
-    #box5,
-    #box6,
-    #box10 {
+    #box4{
         font-size: 20px;
     }
 

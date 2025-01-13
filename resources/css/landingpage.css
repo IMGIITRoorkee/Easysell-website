@@ -235,7 +235,7 @@ nav {
     justify-content: center;
     background: rgb(1, 175, 87);
     overflow-wrap: break-word;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     margin: 10px;
     border-radius: 8px;
     padding: 20px 13px 20px 28px;
@@ -253,7 +253,7 @@ nav {
     flex-direction: column;
     justify-content: center;
     overflow-wrap: break-word;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     margin: 10px;
     border-radius: 8px;
     padding: 0px 13px 0px 28px;

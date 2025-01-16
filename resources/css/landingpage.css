@@ -761,7 +761,27 @@ nav li a {
         width: 90%;
         display: flex;
         justify-content: flex-end;
-    }
+        transition: transform 0.3s ease, color 0.3s ease; 
+        cursor: pointer; 
+      }
+      
+      #bars.rotate {
+        transform: rotate(180deg); 
+        color: red; 
+      }
+      
+      .main-nav {
+        display: none;
+        opacity: 0;
+        transform: translateY(-20px);
+        transition: opacity 0.3s ease, transform 0.3s ease;
+      }
+
+      .main-nav.active {
+        display: flex;
+        opacity: 1;
+        transform: translateY(0);
+      }
 
     #rectangle1 {
         width: 28.974358974358978%;

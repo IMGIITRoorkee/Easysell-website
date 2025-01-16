@@ -485,9 +485,11 @@ nav li a {
     font-weight: 400;
     font-size: 28px;
     line-height: 35px;
-    display: flex;
     align-items: center;
     max-width: 60%;
+    color: #000000;
+}
+.faq2 a{
     color: #000000;
 }
 

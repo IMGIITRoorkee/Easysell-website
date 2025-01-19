@@ -1,0 +1,195 @@
+html,
+body {
+    margin: 0px;
+    margin-top: 3px;
+    width: 100%;
+    background-color: #121212;
+    color: #E0E0E0;
+}
+
+#rectangle1, #rectangle2, #rectangle3, #rectangle4, #rectangle5, #rectangle6 {
+    background: rgba(0, 168, 106, 0.449);
+    z-index: 0;
+}
+
+.fa-bars {
+    display: none;
+    color: #E0E0E0;
+}
+
+#rectangle7 {
+    background: #1E3229;
+    border-radius: 12px;
+}
+
+#header-background {
+    background: rgba(0, 0, 0, 0.471);
+    backdrop-filter: blur(32px);
+    z-index: 0;
+}
+
+.main-nav ul li a {
+    color: #E0E0E0;
+    text-decoration: none;
+}
+
+#li3 {
+    background: #00A86B;
+}
+
+#try {
+    color: #E0E0E0;
+    background: #00A86B;
+    border-radius: 20px;
+}
+
+#box1 {
+    color: #B0B0B0;
+}
+
+#box2 {
+    color: #E0E0E0;
+}
+
+#box3, #box5, #box6, #box10 {
+    background: #165b3c;
+    color: #E0E0E0;
+}
+
+#box4 {
+    color: #E0E0E0;
+    background: #2A2A2A;
+}
+
+.container3 {
+    background: #00A86B;
+}
+
+.container3 p {
+    color: #E0E0E0;
+}
+
+#box7 {
+    color: #B0B0B0;
+}
+
+#box8 {
+    color: #A0A0A0;
+}
+
+#rev1, #rev2, #rev3, #rev4 {
+    background: #2A2A2A;
+    color: #E0E0E0;
+}
+
+.chillguy, .produ {
+    color: #B0B0B0;
+}
+
+#rectangle9 {
+    background: #1E3229;
+}
+
+#rectangle10 {
+    background: #00A86B;
+}
+
+#faq {
+    color: #B0B0B0;
+}
+
+#faq2 {
+    color: #E0E0E0;
+}
+
+#ques1 {
+    background: #1E3229;
+    color: #E0E0E0;
+}
+
+#ques1 div {
+    background: #00A86B;
+}
+
+.ans {
+    background: #2A2A2A;
+    color: #E0E0E0;
+}
+
+.container7, .container72 {
+    background: #1A1A1A;
+}
+
+.abc {
+    background: #2A2A2A;
+}
+
+.abc:hover {
+    background: #00A86B;
+}
+
+.def {
+    color: #E0E0E0;
+}
+
+#sell {
+    color: #E0E0E0;
+}
+
+.ijk {
+    background: #2A2A2A;
+}
+
+.ijk:hover {
+    background: #00A86B;
+}
+
+#abo {
+    color: #B0B0B0;
+}
+
+#lor {
+    color: #E0E0E0;
+}
+
+#scrollTOP {
+    background: #00A86B;
+    color: #E0E0E0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#scrollTOP:active {
+    background-color: #007849;
+}
+
+@media (max-width:1250px) {
+    #box3, #box4, #box5, #box6, #box10 {
+        font-size: 20px;
+    }
+
+    #rev1, #rev2, #rev3, #rev4 {
+        font-size: 14px;
+    }
+
+    #ques1 {
+        font-size: 20px;
+    }
+
+    .ans {
+        font-size: 16px;
+    }
+}
+
+@media(max-width:800px) {
+    .main-nav {
+        background: #00A86B;
+    }
+
+    .container3 {
+        background: #121212;
+    }
+
+    .container3 p {
+        color: #E0E0E0;
+    }
+}

@@ -182,12 +182,88 @@ nav li a {
     color: #1F2420;
     text-decoration: none;
 }
+.theme-switch-wrapper {
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.theme-switch-btn {
+    width: 24px;
+    height: 24px;  /* Added explicit height */
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sun-icon, .moon-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(0deg);
+    stroke: currentColor;
+    stroke-width: 2;
+    stroke-linecap: round;
+    fill: none;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    width: 24px;
+    height: 24px;
+}
+
+.sun-circle {
+    fill: currentColor;
+}
+
+.sun-rays line {
+    stroke: currentColor;
+}
+
+.moon-path {
+    fill: currentColor;
+}
+
+/* Dark theme styles */
+body.dark-theme .sun-icon {
+    opacity: 0;
+    transform: translate(-50%, -50%) rotate(90deg);
+}
+
+body.dark-theme .moon-icon {
+    opacity: 1;
+    transform: translate(-50%, -50%) rotate(0deg);
+}
+
+/* Light theme styles */
+.sun-icon {
+    opacity: 1;
+    transform: translate(-50%, -50%) rotate(0deg);
+}
+
+.moon-icon {
+    opacity: 0;
+    transform: translate(-50%, -50%) rotate(-90deg);
+}
+
+/* Animation for rays */
+@keyframes raysPulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}
+
+.sun-icon .sun-rays {
+    animation: raysPulse 2s infinite;
+    transform-origin: center;
+}
 
 #try {
     color: #F6FFFA;
     background: #01AF57;
     border-radius: 20px;
 }
+
 
 .container1 {
     margin-top: 300px;
